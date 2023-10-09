@@ -19,8 +19,10 @@ namespace PryDamonteLab
 
         private void agregarProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
-            
+            this.Hide();
+            FrmABM v5 = new FrmABM();
+            v5.Show();
+
         }
 
         private void agregarArchivosToolStripMenuItem_Click(object sender, EventArgs e)
